@@ -5,11 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Álbum de Fotos - Estilo Jornal</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #E0FFFF; /* Ciano claro */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+        .album {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+        .quadrado {
+            width: 30%;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+            background: white; /* Fundo branco para as fotos */
+        }
+        .quadrado img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
 
 <header>
-    <h1>Registros do meu periódo escolar durante a trajetória🤍</h1>
+    <h1>Registros do meu período escolar durante a trajetória🤍</h1>
 </header>
 
 <div class="album">
@@ -31,12 +69,12 @@
     <div class="quadrado">
         <img src="Sarah.jpg" alt="Memória 4">
         <h2>03.05.2023</h2>
-        <p>Dia ensolarado que cheguei mais cedo no cólegio com a Sarah e deitamos na grama atrás do farol.</p>
+        <p>Dia ensolarado que cheguei mais cedo no colégio com a Sarah e deitamos na grama atrás do farol.</p>
     </div>
     <div class="quadrado">
         <img src="passeio.jpg" alt="Memória 5">
         <h2>27.07.2023</h2>
-        <p>Passeio feito pela escola numa caverna super legal com meus colegas .</p>
+        <p>Passeio feito pela escola numa caverna super legal com meus colegas.</p>
     </div>
     <div class="quadrado">
         <img src="meninas.jpg" alt="Memória 6">
@@ -51,5 +89,3 @@
 
 </body>
 </html>
-
-
